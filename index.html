@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvesh Devanand Sawarkar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/267e6f52cd.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()" style="display: none;"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>E&TC Engineer</p>
+            <h1>Hi, I'm <span>Sarvesh</span></span><br> Devanand Sawarkar</h1>
+        </div>
+    </div>
+
+
+</div>
+<!-- --------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="image/IMAGES-Photoroom.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Hello, I'm Sarvesh Sawarkar from Amravati, Maharashtra, currently pursuing a Bachelor's degree in Electronics 
+                    and Telecommunication Engineering at Pune Vidhyarthi Griha's College of Engineering, Pune, under the Savitribai 
+                    Phule Pune University (SPPU). I am passionate about exploring new horizons and remain excited and motivated in 
+                    my academic journey.In addition to my studies, I have actively engaged in various sports such as swimming, archery,
+                    volleyball,and cricket. Beyond physical activities, I find joy in playing PC games, participating in trading, and
+                    exploring the world of editing.If you have any questions or would like to connect over shared interests, feel free 
+                    to reach out.I'm always open to new conversations and experiences."</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>EMBEDDED C</span><br></li>
+                            <li><span>C++</span><br></li>
+                            <li><span>MYSQL</span><br></li>
+                            <li><span>IoT</span><br></li>
+                            <li><span>ARDUINO</span><br></li>
+                            <li><span>VIDEO EDITING</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>PBL PROJECT</span><br>VEHICLE MOVEMENT BASED
+                                STREET LIGHT.</li>
+                            <li><span>MINI PROJECT</span><br>SMART LOCK SYSTEM
+                                USING ESP32-CAM AND INTEGRATED MOBILE
+                                APPLICATION.
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Savitribai Phule Pune University</span><br>Bachelor of engineering (B.E) Degree in
+                                electronics and telecommunications (E&TC)
+                                </li>
+                            <li><span>12th RKMV, AMRAVATI 2019-20</span><br>-Academic Marks-86%</li>
+                            <li><span>10th Bhawarilal samra English high
+                                school</span><br>-Academic Marks-86%</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+                
+        </div>
+    </div>
+  
+</div>
+<!-- ------------Experience------------- -->
+<div id="Experience">
+    <div class="container">
+        <h1 class="sub-title" align="center">My Experience</h1>
+        <div class="Experience-list">
+            <div class="experience-item" id="internship">
+                <h2>InternShip</h2>
+                <i class="fa-regular fa-user"></i>
+                <p align="left">2-3 Weeks internship at Infinity Automation System Pvt. Ltd.,
+                    I immersed myself in the intricate world of assembling
+                    production lines. I gained valuable insights into the diverse
+                    components integral to these assembly lines. My experience
+                    extended to learning about Human-Machine Interface (HMI),
+                    sensors, actuators, as well as the complexities of PLC
+                    connections. Additionally, I acquired knowledge of the
+                    control panels that govern and optimize the functionality of
+                    the automated assembly line. This immersive experience
+                    significantly enhanced my understanding of automation
+                    systems.</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+                <div class="experience-item tesa-item" id="tesa">
+                <h2>TESA</h2>
+                <i class="fa-solid fa-calendar-day"></i>
+                <p align="left">Expert in videography and video editing, leveraging
+                    creative skills to produce compelling visual content.
+                    Demonstrated expertise in capturing and editing footage
+                    for diverse projects, ensuring high-quality output.
+                    </p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------Resume----------------- -->
+<div class="resume">
+    <div class="container">
+        <h1 class="sub-title" align="center">My Resume</h1>
+        <div class="Resume-list" align="center">
+            <a href="CV.pdf" class="button button2" download>Download CV</a>
+        </div>
+    </div>
+</div>
+<!-- -------------------contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> sarveshsawarkar1@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen"></i>+918080133097</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sarvesh-sawarkar-b9b165249?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BCp0ro2YpQyqV6WdENpfwvg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sarvesh.sawarkar09/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button button2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sarvesh Sawarkar.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<!-- <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script> -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    var closeIcon = document.querySelector(".fa-times");
+    var barsIcon = document.querySelector(".fa-bars");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+        closeIcon.style.display = "block"; // Show close icon
+        barsIcon.style.display = "none";   // Hide bars icon
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+        closeIcon.style.display = "none";   // Hide close icon
+        barsIcon.style.display = "block";  // Show bars icon
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3dTKs4WkLX3o7TjfMSZNNwui1cL0BNx3OaImhMoTOQivTjDjCl-5f2MKzXJb9pLt1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
